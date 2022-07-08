@@ -51,7 +51,7 @@ public class DictionaryNameFactory implements NameFactory
     public DictionaryNameFactory(URL         url,
                                  NameFactory nameFactory) throws IOException
     {
-        this(url, true, nameFactory);
+        this(url, false, nameFactory);
     }
 
 
